@@ -14,38 +14,38 @@ repositories {
 def versions = [
     lucene : "4.6.0",
     slf4j : "1.7.6",
-    logback : "1.1.1"
-    junit : "4.11"
+    logback : "1.1.1",
+    junit : "4.11",
     guava : "16.0.1"
 ]
 
 dependencies {
 	compile(
-		[group: 'junit', name: 'junit', version: '${versions.junit}'],
-		[group: 'org.slf4j', name: 'slf4j-api', version: '${versions.slf4j}'],
-		[group: 'org.slf4j', name: 'slf4j-simple', version: '${versions.slf4j}'],
+		[group: 'junit', name: 'junit', version: "${versions.junit}"],
+		[group: 'org.slf4j', name: 'slf4j-api', version: "${versions.slf4j}"],
+		[group: 'org.slf4j', name: 'slf4j-simple', version: "${versions.slf4j}"],
 		[group: 'org.apache.lucene', name: 'lucene-core', version: "${versions.lucene}"],
         [group: 'org.apache.lucene', name: 'lucene-analyzers-common', version: "${versions.lucene}"],
         [group: 'org.apache.lucene', name: 'lucene-queries', version: "${versions.lucene}"],
         [group: 'org.apache.lucene', name: 'lucene-queryparser', version: "${versions.lucene}"],
-        [group: 'ch.qos.logback', name: 'logback-core', version: '${versions.logback}'],
-		[group: 'ch.qos.logback', name: 'logback-classic', version: '${versions.logback}'],
+        [group: 'ch.qos.logback', name: 'logback-core', version: "${versions.logback}"],
+		[group: 'ch.qos.logback', name: 'logback-classic', version: "${versions.logback}"],
 		[group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.1.6'],
-		[group: 'com.google.guava', name: 'guava', version: '${versions.guava}']
+		[group: 'com.google.guava', name: 'guava', version: "${versions.guava}"]
 	)
 
 	testRuntime(
-        [group: 'junit', name: 'junit', version: '${versions.junit}'],
-        [group: 'org.slf4j', name: 'slf4j-api', version: '${versions.slf4j}'],
-        [group: 'org.slf4j', name: 'slf4j-simple', version: '${versions.slf4j}'],
+        [group: 'junit', name: 'junit', version: "${versions.junit}"],
+        [group: 'org.slf4j', name: 'slf4j-api', version: "${versions.slf4j}"],
+        [group: 'org.slf4j', name: 'slf4j-simple', version: "${versions.slf4j}"],
         [group: 'org.apache.lucene', name: 'lucene-core', version: "${versions.lucene}"],
 		[group: 'org.apache.lucene', name: 'lucene-analyzers-common', version: "${versions.lucene}"],
         [group: 'org.apache.lucene', name: 'lucene-queries', version: "${versions.lucene}"],
         [group: 'org.apache.lucene', name: 'lucene-queryparser', version: "${versions.lucene}"],
-        [group: 'ch.qos.logback', name: 'logback-core', version: '${versions.logback}'],
-		[group: 'ch.qos.logback', name: 'logback-classic', version: '${versions.logback}'],
+        [group: 'ch.qos.logback', name: 'logback-core', version: "${versions.logback}"],
+		[group: 'ch.qos.logback', name: 'logback-classic', version: "${versions.logback}"],
 		[group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.1.6'],
-		[group: 'com.google.guava', name: 'guava', version: '${versions.guava}']
+		[group: 'com.google.guava', name: 'guava', version: "${versions.guava}"]
     )
 
 }
