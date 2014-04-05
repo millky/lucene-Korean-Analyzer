@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/lucenekorean/!svn/ver/39/arirang.morph/src/main/resources/org/apache/lucene/analysis/ko/dic
+END
+syllable.dic
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/lucenekorean/!svn/ver/32/arirang.morph/src/main/resources/org/apache/lucene/analysis/ko/dic/syllable.dic
+END
+mapHanja.dic
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/lucenekorean/!svn/ver/32/arirang.morph/src/main/resources/org/apache/lucene/analysis/ko/dic/mapHanja.dic
+END
+suffix.dic
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/lucenekorean/!svn/ver/32/arirang.morph/src/main/resources/org/apache/lucene/analysis/ko/dic/suffix.dic
+END
+occurrence.dic
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/lucenekorean/!svn/ver/32/arirang.morph/src/main/resources/org/apache/lucene/analysis/ko/dic/occurrence.dic
+END
+prefix.dic
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/lucenekorean/!svn/ver/32/arirang.morph/src/main/resources/org/apache/lucene/analysis/ko/dic/prefix.dic
+END
+josa.dic
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/lucenekorean/!svn/ver/32/arirang.morph/src/main/resources/org/apache/lucene/analysis/ko/dic/josa.dic
+END
+total.dic
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/lucenekorean/!svn/ver/39/arirang.morph/src/main/resources/org/apache/lucene/analysis/ko/dic/total.dic
+END
+eomi.dic
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/lucenekorean/!svn/ver/32/arirang.morph/src/main/resources/org/apache/lucene/analysis/ko/dic/eomi.dic
+END
+cj.dic
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/lucenekorean/!svn/ver/32/arirang.morph/src/main/resources/org/apache/lucene/analysis/ko/dic/cj.dic
+END
+compounds.dic
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/lucenekorean/!svn/ver/32/arirang.morph/src/main/resources/org/apache/lucene/analysis/ko/dic/compounds.dic
+END
+abbreviation.dic
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/lucenekorean/!svn/ver/32/arirang.morph/src/main/resources/org/apache/lucene/analysis/ko/dic/abbreviation.dic
+END
+uncompounds.dic
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/lucenekorean/!svn/ver/32/arirang.morph/src/main/resources/org/apache/lucene/analysis/ko/dic/uncompounds.dic
+END
+extension.dic
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/lucenekorean/!svn/ver/32/arirang.morph/src/main/resources/org/apache/lucene/analysis/ko/dic/extension.dic
+END

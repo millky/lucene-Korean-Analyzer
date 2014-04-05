@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/lucenekorean/!svn/ver/39/arirang.morph/src/main/resources/org/apache/lucene/analysis/ko
+END
+stopwords.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/lucenekorean/!svn/ver/32/arirang.morph/src/main/resources/org/apache/lucene/analysis/ko/stopwords.txt
+END
+korean.properties
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/lucenekorean/!svn/ver/32/arirang.morph/src/main/resources/org/apache/lucene/analysis/ko/korean.properties
+END

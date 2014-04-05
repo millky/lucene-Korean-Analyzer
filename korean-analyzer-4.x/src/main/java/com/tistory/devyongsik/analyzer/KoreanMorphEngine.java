@@ -5,11 +5,11 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.lucene.analysis.kr.morph.AnalysisOutput;
-import org.apache.lucene.analysis.kr.morph.CompoundEntry;
-import org.apache.lucene.analysis.kr.morph.MorphAnalyzer;
-import org.apache.lucene.analysis.kr.morph.MorphException;
-import org.apache.lucene.analysis.kr.morph.PatternConstants;
+import org.apache.lucene.analysis.ko.morph.AnalysisOutput;
+import org.apache.lucene.analysis.ko.morph.CompoundEntry;
+import org.apache.lucene.analysis.ko.morph.MorphAnalyzer;
+import org.apache.lucene.analysis.ko.morph.MorphException;
+import org.apache.lucene.analysis.ko.morph.PatternConstants;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 import org.apache.lucene.analysis.tokenattributes.OffsetAttribute;
 import org.apache.lucene.analysis.tokenattributes.PositionIncrementAttribute;
@@ -64,7 +64,6 @@ public class KoreanMorphEngine implements Engine {
 	    }
 	}
 	
-	@SuppressWarnings("unchecked")
 	private void analysisKorean(AttributeSource attrSource, List<ComparableState> comparableStateList, Map<String, String> returnedTokens) throws MorphException {
 		
 		if(logger.isDebugEnabled())
